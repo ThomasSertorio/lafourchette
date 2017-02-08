@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Les restaurants 3 étoiles</h1>
+  <ul>
+    <% @restaurants.each do |restaurant| %>
+      <li><%= restaurant.name %></li>
+    <% end %>
+  </ul>
+</div>
